@@ -1,0 +1,47 @@
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# PDF and fiscal documents
+*.pdf
+*.xml
+*.bak
+
+# Allow synthetic examples only
+!examples/*.pdf
+
+# Generated files and processing output
+Facturas_modificadas/
+output/
+outputs/
+processed/
+backups/
+*.tmp.pdf
+
+# Processing reports
+reporte_*.csv
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+```
+
